@@ -95,8 +95,7 @@ My main site is itself a production system: a Supabase-backed project ledger and
 2. **Security is a default, not a phase.** RLS on every table, secrets on the server, rate limits and origin checks on public endpoints.
 3. **Small and dependency-light.** Every dependency is a maintenance and supply-chain cost; I add them on evidence, not habit.
 4. **Honest documentation.** READMEs and security pages say what a system does *and* what it doesn't do yet — including the limitations.
-5. **Licences are a decision.** MIT for libraries that should spread, AGPL for products that should stay open. Chosen deliberately, per project.
-6. **I don't deploy on Friday.** Not superstition — I just like my weekends the way they are.
+5. **I don't deploy on Friday.** Not superstition — I just like my weekends the way they are.
 
 ---
 
