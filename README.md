@@ -11,7 +11,7 @@
 
 ## About
 
-I'm a full-stack web developer based in **Jakarta, Indonesia**, building on the web since 2020. I don't just build demos — I design, build, secure, deploy, and maintain real products that are live on the internet right now, under my own domains, with real users in mind.
+I'm a full-stack web developer based in **Jakarta, Indonesia**, building on the web since early 20s. I don't just build demos — I design, build, secure, deploy, and maintain real products that are live on the internet right now, under my own domains, with real users in mind.
 
 My work sits at the intersection of three things:
 
