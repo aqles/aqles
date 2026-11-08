@@ -83,7 +83,7 @@ A complete storefront with no backend and no build step.
 
 ### ednasalam.com — my portfolio, run like a product
 
-My main site is itself a production system: a Supabase-backed project ledger and blog, a working terminal interface, and an AI assistant whose API key lives **server-side only** after a security audit found the original client-side exposure — fixed, merged, and verified live. Database policies for blog, storage, projects, and settings are pinned to a single admin identity.
+My main site is itself a production system: a Supabase-backed project ledger and blog, a working terminal interface, and an AI assistant built so its API key **never reaches the browser** — every AI call goes through a server-side endpoint with origin checks and rate limiting. Database policies for blog, storage, projects, and settings are pinned to a single admin identity, with public read access kept intact.
 
 **Live:** [ednasalam.com](https://www.ednasalam.com) · **Stack:** React · TypeScript · Supabase (RLS) · Vercel Serverless
 
