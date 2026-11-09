@@ -4,6 +4,7 @@
 
 [![Website](https://img.shields.io/badge/Website-ednasalam.com-58a6ff?style=flat&logo=googlechrome&logoColor=white)](https://www.ednasalam.com)
 [![npm](https://img.shields.io/badge/npm-@aqles%2Fscrollflow-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@aqles/scrollflow)
+[![PyPI](https://img.shields.io/badge/PyPI-sitevigil-3775A9?style=flat&logo=pypi&logoColor=white)](https://pypi.org/project/sitevigil/)
 [![Instagram](https://img.shields.io/badge/Instagram-@aql__es-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/aql_es)
 [![X](https://img.shields.io/badge/X-@aqles-000000?style=flat&logo=x&logoColor=white)](https://x.com/aqles)
 
@@ -17,7 +18,7 @@ My work sits at the intersection of three things:
 
 - **Product engineering** — complete web apps taken from an empty repo to a deployed, verified production release
 - **Privacy & security engineering** — end-to-end encryption, row-level security, server-side secrets, rate limiting, and security audits of my own systems before they ship
-- **Open source tooling** — small, zero-dependency libraries published properly: versioned, tested, documented, and released on npm and CDN
+- **Open source tooling** — small, zero-dependency libraries and tools published properly: versioned, tested, documented, and released on npm, PyPI, and CDN
 
 > Vanilla when vanilla is enough. A framework when the problem actually needs one.
 
@@ -37,6 +38,17 @@ My work sits at the intersection of three things:
 ---
 
 ## Featured work
+
+### [SiteVigil](https://github.com/aqles/sitevigil) — one-command website security audit, published on PyPI
+
+A security audit of any website in one command — for humans in a terminal, and for AI agents over MCP.
+
+- **40 checks** — security headers, cookies, TLS, CORS, exposed `.env` / `.git` (verified by file contents, not status codes, so no soft-404 false positives), and DNS mail records — scored 0–100, with a concrete fix written out for every finding
+- **Known-vulnerability matching** — fingerprints server software, jQuery, and WordPress plugins, then matches them against **NVD CVEs**, re-verified against each CVE's own vulnerable version ranges before anything is reported
+- Speaks **MCP** (stdio and HTTP), so Claude Code, Cursor, and other agents can audit a site — and apply the fixes — themselves
+- **Zero dependencies**, Python standard library only; `--fix` writes the ready-to-commit header config for your platform, `--baseline` catches regressions in CI
+
+**Install:** `pip install sitevigil` · **Stack:** Python · MCP · NVD
 
 ### [Bisik](https://github.com/aqles/bisik) — encrypted chat that stores nothing
 
@@ -105,6 +117,7 @@ My main site is itself a production system: a Supabase-backed project ledger and
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat&logo=postgresql&logoColor=white)
@@ -148,7 +161,7 @@ My main site is itself a production system: a Supabase-backed project ledger and
 
 ## Currently
 
-- Maintaining **Bisik** (AGPL) and **ScrollFlow** (npm) as public open source
+- Maintaining **Bisik** (AGPL), **ScrollFlow** (npm), and **SiteVigil** (PyPI) as public open source
 - Building learning software with **PintarCilik**
 - Writing about security findings and shipping notes on [ednasalam.com](https://www.ednasalam.com)
 - Closing browser tabs. Eventually.
