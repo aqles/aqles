@@ -83,6 +83,17 @@ Reading, counting, and logic games for young children — designed to be safe, i
 
 **Live:** [calistung.ednasalam.com](https://calistung.ednasalam.com) · **Stack:** React · TypeScript · Supabase · Tailwind CSS · Vite
 
+### [MerchMagic](https://merchmagic.vercel.app) — logo mockup studio that runs entirely in the browser
+
+Turn a logo into product mockups with no AI service, no uploads, and no account — the whole studio runs on the visitor's device.
+
+- Designs are **composited locally** onto real product photos with the Canvas API: fabric folds and shadows show through the print, and every letter and colour stays pixel-exact — artwork is never redrawn
+- **8 product templates** — tees, a hoodie, a cap, tote bags, a mug, a framed poster — including dark and coloured products where ink colours stay true and white stays white
+- A solid logo background is removed locally in the browser, work **autosaves on the device**, and exports are full-resolution PNGs
+- No backend, no API keys, no per-render cost: unreleased designs never leave the machine they were made on
+
+**Live:** [merchmagic.vercel.app](https://merchmagic.vercel.app) · **Stack:** React · TypeScript · Canvas API · Vite
+
 ### [Baz-On](https://github.com/aqles/baz-on) — offline-first static e-commerce
 
 A complete storefront with no backend and no build step.
@@ -161,7 +172,7 @@ My main site is itself a production system: a Supabase-backed project ledger and
 
 ## Currently
 
-- Maintaining **Bisik** (AGPL), **ScrollFlow** (npm), and **SiteVigil** (PyPI) as public open source
+- Maintaining **Bisik** (AGPL), **ScrollFlow** (npm), and **SiteVigil** (PyPI) as public open source, plus **MerchMagic** as a live product
 - Building learning software with **PintarCilik**
 - Writing about security findings and shipping notes on [ednasalam.com](https://www.ednasalam.com)
 - Closing browser tabs. Eventually.
